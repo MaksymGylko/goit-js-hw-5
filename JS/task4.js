@@ -16,7 +16,6 @@ class StringBuilder {
     } 
 
     prepend(str) {
-        this.str = str;
         this._value = this.str + this.value;
     } 
 

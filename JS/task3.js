@@ -10,7 +10,6 @@ class Storage {
     };
 
     addItem(item) {
-        this.item = item;
         this.items.push(item)
         console.table(this.items);
     };
